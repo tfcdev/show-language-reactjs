@@ -1,0 +1,47 @@
+.Header {
+  height: 80px;
+  width: 100%;
+  background: rgb(94, 49, 49);
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Header h1 {
+  background: inherit;
+  color: white;
+}
+
+.Navbar {
+  background: inherit;
+}
+
+.Navbar ul {
+  background: inherit;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 428px) {
+  .Header {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+}
+
+li {
+  background: inherit;
+  list-style: none;
+}
+
+.li {
+  background: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
